@@ -2,7 +2,6 @@
 
 [![Build status](//img.shields.io/travis/shreyasminocha/eslint-config.svg)](//travis-ci.com/shreyasminocha/eslint-config)
 [![Latest version](//img.shields.io/npm/v/eslint-config-shreyasminocha.svg)](//npmjs.com/package/eslint-config-shreyasminocha)
-[![Dependencies](//img.shields.io/librariesio/github/shreyasminocha/eslint-config.svg)](//libraries.io/npm/eslint-config-shreyasminocha)
 
 An eslint configuration tailored to my preferences. Extends [`airbnb-base`](//npmjs.com/package/eslint-config-airbnb-base).
 
@@ -10,7 +9,7 @@ An eslint configuration tailored to my preferences. Extends [`airbnb-base`](//np
 
 The following assumes you have [`npm`](//npmjs.com) installed.
 
-## Local installation (usually what you want)
+### Local installation
 
 ```sh
 npm install --save-dev eslint-config-shreyasminocha
@@ -25,7 +24,7 @@ Add the following (or equivalent) to your `.eslintrc.yml` (or equivalent):
 extends: @shreyasminocha
 ```
 
-## Global installation
+### Global installation
 
 Replace `--save-dev` with `--global` in [the steps for local installation](#local-installation) and edit the global eslintrc (usually in `~`).
 
