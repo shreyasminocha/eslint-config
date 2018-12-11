@@ -21,7 +21,7 @@ npm install --save-dev eslint eslint-config-airbnb-base eslint-plugin-import
 Add the following (or equivalent) to your `.eslintrc.yml` (or equivalent):
 
 ```yml
-extends: @shreyasminocha
+extends: shreyasminocha
 ```
 
 ### Global installation
