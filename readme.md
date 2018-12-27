@@ -1,7 +1,7 @@
 # eslint-config
 
-[![Build status](//img.shields.io/travis/shreyasminocha/eslint-config.svg)](//travis-ci.com/shreyasminocha/eslint-config)
-[![Latest version](//img.shields.io/npm/v/eslint-config-shreyasminocha.svg)](//npmjs.com/package/eslint-config-shreyasminocha)
+[![Build status](https://img.shields.io/travis/shreyasminocha/eslint-config.svg)](//travis-ci.com/shreyasminocha/eslint-config)
+[![Latest version](https://img.shields.io/npm/v/eslint-config-shreyasminocha.svg)](//npmjs.com/package/eslint-config-shreyasminocha)
 [![Code style](https://img.shields.io/badge/codestyle-shreyasminocha-blue.svg)](//github.com/shreyasminocha/eslint-config)
 
 An eslint configuration tailored to my preferences. Extends [`airbnb-base`](//npmjs.com/package/eslint-config-airbnb-base).
