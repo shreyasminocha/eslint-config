@@ -1,5 +1,18 @@
 const config = {
-    extends: 'airbnb-base',
+    env: { es6: true },
+
+    plugins: [
+        'eslint-comments',
+        'unicorn'
+    ],
+
+    extends: [
+        'airbnb-base',
+        'plugin:unicorn/recommended',
+        'plugin:eslint-comments/recommended',
+        './browser.js',
+        './node.js'
+    ],
 
     rules: {
         indent: [

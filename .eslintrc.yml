@@ -1,7 +1,7 @@
 ---
 extends:
     - ./index.js
-    - plugin:ava/recommended
+    - ./ava.js
 
 env:
     node: true
