@@ -19,11 +19,7 @@ const config = {
             'error', 4,
             { SwitchCase: 0 }
         ],
-        'no-use-before-define': ['error', {
-            functions: true,
-            classes: true,
-            variables: false
-        }],
+        'no-use-before-define': 'off',
         'no-plus-plus': 'off',
         'arrow-body-style': 'off',
         'no-param-reassign': 'off',
@@ -38,7 +34,8 @@ const config = {
         'line-comment-position': 'off',
         'max-len': ['warn', 80, {
             tabWidth: 4,
-            ignoreUrls: true
+            ignoreUrls: true,
+            ignoreStrings: true
         }],
         'multiline-ternary': 'off',
         'no-restricted-syntax': [
@@ -49,7 +46,6 @@ const config = {
         'no-underscore-dangle': ['warn', {
             allowAfterThis: true
         }],
-        'prefer-object-spread': 'error',
         'comma-dangle': ['error', 'never']
     }
 };
