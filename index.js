@@ -2,13 +2,11 @@ const config = {
     env: { es6: true },
 
     plugins: [
-        'eslint-comments',
         'unicorn'
     ],
 
     extends: [
         'airbnb-base',
-        'plugin:eslint-comments/recommended',
         'plugin:unicorn/recommended',
         './browser.js',
         './node.js'

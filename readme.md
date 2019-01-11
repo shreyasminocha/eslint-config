@@ -16,7 +16,7 @@ The following assumes you have [`npm`](//npmjs.com) installed.
 npm install --save-dev eslint-config-shreyasminocha
 
 # Peer dependencies
-npm install --save-dev eslint eslint-config-airbnb-base eslint-plugin-import
+npm install --save-dev eslint eslint-config-airbnb-base eslint-plugin-ava eslint-plugin-compat eslint-plugin-node eslint-plugin-security eslint-plugin-unicorn
 ```
 
 Add the following (or equivalent) to your `.eslintrc.yml` (or equivalent):
