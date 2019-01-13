@@ -8,7 +8,8 @@ const nodeConfig = {
 
     extends: [
         'plugin:security/recommended',
-        'plugin:node/recommended'
+        'plugin:node/recommended',
+        './index.js'
     ],
 
     rules: {

@@ -1,15 +1,11 @@
 const config = {
     env: { es6: true },
 
-    plugins: [
-        'unicorn'
-    ],
+    plugins: ['unicorn'],
 
     extends: [
         'airbnb-base',
-        'plugin:unicorn/recommended',
-        './browser.js',
-        './node.js'
+        'plugin:unicorn/recommended'
     ],
 
     rules: {

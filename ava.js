@@ -1,5 +1,8 @@
 const avaConfig = {
+    env: { node: true },
+
     plugins: ['ava'],
+
     extends: 'plugin:ava/recommended',
 
     rules: {

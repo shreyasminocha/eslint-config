@@ -21,9 +21,32 @@ npm install --save-dev eslint eslint-config-airbnb-base eslint-plugin-ava eslint
 
 Add the following (or equivalent) to your `.eslintrc.yml` (or equivalent):
 
+#### Base
+
 ```yml
 extends: shreyasminocha
 ```
+
+#### Node.js
+
+```yml
+extends: shreyasminocha/node
+```
+
+#### Node.js + AVA
+
+```yml
+extends:
+    - shreyasminocha/node
+    - shreyasminocha/ava
+```
+
+#### Browser
+
+```yml
+extends: shreyasminocha/browser
+```
+
 
 ### Global installation
 

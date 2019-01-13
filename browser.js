@@ -2,7 +2,11 @@ const browserConfig = {
     env: { browser: true },
 
     plugins: ['compat'],
-    extends: 'plugin:compat/recommended',
+
+    extends: [
+        './index.js',
+        'plugin:compat/recommended'
+    ],
 
     rules: {}
 };
