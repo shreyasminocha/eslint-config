@@ -13,7 +13,11 @@ const nodeConfig = {
     ],
 
     rules: {
-        'node/no-unsupported-features/es-syntax': 'off' // Babel is everywhere
+        // Babel is everywhere
+        'node/no-unsupported-features/es-syntax': 'off',
+
+        // Duplicate of import/no-extraneous-dependencies
+        'node/no-extraneous-require': 'off'
     }
 };
 

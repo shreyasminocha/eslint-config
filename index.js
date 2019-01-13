@@ -45,7 +45,9 @@ const config = {
         }],
         'no-use-before-define': 'off',
         strict: ['error', 'global'],
-        'unicorn/no-process-exit': 'off' // Duplicate of no-process-exit
+
+        // Duplicate of no-process-exit
+        'unicorn/no-process-exit': 'off'
     }
 };
 
